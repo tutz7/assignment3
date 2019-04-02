@@ -68,8 +68,36 @@ main {
     display: flex;
     flex-direction: column;
     flex: 5;
+}
 
+.map {
+    
+    display: flex;
+    min-height: 50vh;
+    max-height: 150vh;
+    max-width: 80vh;
+    min-width:50;
+    flex-direction: column;  
+        
+    }
 
+.wiki {
+    
+    font-size: large;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+        }
+
+.pics {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0px 20px 20px 20px;
+}
 
 
 
