@@ -71,8 +71,9 @@ main {
 }
 
 .map {
-    
     display: flex;
+    margin-left:auto;
+    margin-right:auto;
     min-height: 50vh;
     max-height: 150vh;
     max-width: 80vh;
@@ -82,12 +83,14 @@ main {
     }
 
 .wiki {
-    
+    text-align:center;
     font-size: large;
     padding: 3em;
     display: flex;
     flex-direction: column;
     flex: 5;
+    background-color: darkseagreen; 
+    opacity:  0.8;
         }
 
 .pics {
