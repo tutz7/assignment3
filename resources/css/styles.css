@@ -17,7 +17,8 @@ body {
 }
 
 h1 {
-        text-transform: uppercase; 
+        text-transform: uppercase;
+        font-size: 4.5em;
 }
 
 h1,
@@ -26,14 +27,30 @@ h2 {
     text-align: center;
 }
 
-a {
-    color: #fff;
-    font-size: 1.2em;
-    transition: background-color .3s, color .3s;
-    text-decoration: none;
-    text-transform: uppercase; 
+
+header {
+    display: flex;
+    align-items: flex-start;
 }
 
+header nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
 
 
 
@@ -57,11 +74,10 @@ main {
 
 
 
-
 @media screen and (max-width: 30rem) {
     header, 
     main, 
     footer {
-        flex-direction: column;
+        flex-direction: row;
     }    
 }
